@@ -11,6 +11,9 @@ export default defineConfig({
       '@locales': path.resolve(__dirname, '../locales')
     }
   },
+  preview: {
+    allowedHosts: ['mirofish-m6ur.onrender.com']
+  },
   server: {
     port: 3000,
     open: true,
